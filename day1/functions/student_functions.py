@@ -12,7 +12,7 @@ def input_student():
   }
   # return student_name,marks_python,marks_math,marks_com
   return dict_student_info
-#TODO:
+
 def calculate_percentage(marks_python,marks_math,marks_comm):
  total=(marks_python+marks_math+marks_comm)
  percentage = (total/300)*100
@@ -20,7 +20,7 @@ def calculate_percentage(marks_python,marks_math,marks_comm):
 
 
 # percentage = 0
-if __name__ =="__main_":
+if __name__ =="__main__":
  print("\n -- Result --")
  student_info=input_student()
  #name,python_m,comm_m=input_student()
